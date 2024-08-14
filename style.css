@@ -81,7 +81,6 @@ body{
 
 .descricao__texto{
     color: var(--cinza-secundario);
-
 }
 
 .secundario__botao{
@@ -93,7 +92,24 @@ body{
     padding: 2em;
 }
 
+.imagem__secundario{
+    width: 80%;
+}
 
+.container__descricao{
+    align-items: center;
+    margin: 0 10em;
+    padding: 2em;
+    display: inline-block;
+}
 
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
 
-
+.descricao__texto{
+    color: var(--cinza-secundario);
+}
